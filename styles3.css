@@ -1,0 +1,41 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    border: 2px black solid;
+    display: inline-block;
+
+}
+#box1{
+    
+    position: sticky;
+    top: 100px;
+    background-image: url(image.png);
+    background-size: cover;
+}
+#box2{
+    background-color: green;
+    position:relative;
+    top: 100px;
+left: 50px;
+}
+
+#box3{
+    background-color: blue;
+    position: sticky;
+    bottom:0px;
+    left: 30px;
+ 
+}
+#box4{
+    position: fixed;
+    background-color: rebeccapurple;
+    bottom:0px;
+    width: 100vw;
+    left: 0px;
+}
+body{
+    background-image: url(image.png);
+    background-attachment: fixed;
+}
+
